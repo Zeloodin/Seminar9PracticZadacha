@@ -32,17 +32,36 @@ long AckermannFunction(long m, long n)
 
 
     
-    restart:
-        if (m == 0)
-            return  n+1;
-        if (n == 0)
-        {
-            m--;
-            n = 1;
-            goto restart;
-        }
-        else
+    // restart:
+    //     if (m == 0)
+    //         return  n+1;
+    //     if (n == 0)
+    //     {
+    //         m--;
+    //         n = 1;
+    //         goto restart;
+    //     }
+    //     else
+    //         return AckermannFunction(m - 1, AckermannFunction(m, n - 1));
+
+
+    if (m > 0)
+    {
+        if (n > 0)
             return AckermannFunction(m - 1, AckermannFunction(m, n - 1));
+        else if (n == 0)
+            return AckermannFunction(m - 1, 1);
+    }
+    else if (m == 0)
+    {
+        if(n >= 0)
+            return n + 1;
+    }
+
+    throw new System.ArgumentOutOfRangeException();
+
+
+
 
 }
 
