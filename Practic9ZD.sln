@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadacha_66", "Zadacha_66\Zadacha_66.csproj", "{F95E32EB-7A15-4ECE-A7B9-F9823486049F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadacha_64", "Zadacha_64\Zadacha_64.csproj", "{900D7547-0241-4D23-AF9C-5C401B751522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadacha_68", "Zadacha_68\Zadacha_68.csproj", "{0344910F-3464-4BBF-9F5E-73D895519C7F}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
@@ -72,5 +74,17 @@ Global
 		{900D7547-0241-4D23-AF9C-5C401B751522}.Release|x64.Build.0 = Release|Any CPU
 		{900D7547-0241-4D23-AF9C-5C401B751522}.Release|x86.ActiveCfg = Release|Any CPU
 		{900D7547-0241-4D23-AF9C-5C401B751522}.Release|x86.Build.0 = Release|Any CPU
+		{0344910F-3464-4BBF-9F5E-73D895519C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0344910F-3464-4BBF-9F5E-73D895519C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0344910F-3464-4BBF-9F5E-73D895519C7F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0344910F-3464-4BBF-9F5E-73D895519C7F}.Debug|x64.Build.0 = Debug|Any CPU
+		{0344910F-3464-4BBF-9F5E-73D895519C7F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0344910F-3464-4BBF-9F5E-73D895519C7F}.Debug|x86.Build.0 = Debug|Any CPU
+		{0344910F-3464-4BBF-9F5E-73D895519C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0344910F-3464-4BBF-9F5E-73D895519C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0344910F-3464-4BBF-9F5E-73D895519C7F}.Release|x64.ActiveCfg = Release|Any CPU
+		{0344910F-3464-4BBF-9F5E-73D895519C7F}.Release|x64.Build.0 = Release|Any CPU
+		{0344910F-3464-4BBF-9F5E-73D895519C7F}.Release|x86.ActiveCfg = Release|Any CPU
+		{0344910F-3464-4BBF-9F5E-73D895519C7F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
