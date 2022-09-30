@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadacha_66", "Zadacha_66\Zadacha_66.csproj", "{F95E32EB-7A15-4ECE-A7B9-F9823486049F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadacha_64", "Zadahca_64\Zadahca_64.csproj", "{900D7547-0241-4D23-AF9C-5C401B751522}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadacha_64", "Zadacha_64\Zadacha_64.csproj", "{900D7547-0241-4D23-AF9C-5C401B751522}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
