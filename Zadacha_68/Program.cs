@@ -11,8 +11,6 @@ int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите целое число n: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
-
-
 long AckermannFunction(long m, long n)
 {
     if (m > 0)
@@ -27,10 +25,6 @@ long AckermannFunction(long m, long n)
         if(n >= 0)
             return n + 1;
     }
-
     throw new System.ArgumentOutOfRangeException();
 }
-
 Console.WriteLine(AckermannFunction(m, n));
-
-throw new System.ArgumentOutOfRangeException();
